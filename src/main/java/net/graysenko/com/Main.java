@@ -3,8 +3,8 @@ package net.graysenko.com;
 public class Main {
     public static void main(String[] args) {
         Thread first = new Thread(new MyRunnable("First"));
-        Thread second = new Thread(new MyRunnable("First"));
-        Thread Third = new Thread(new MyRunnable("First"));
+        Thread second = new Thread(new MyRunnable("second"));
+        Thread Third = new Thread(new MyRunnable("Third"));
 
         first.start();
         second.start();
